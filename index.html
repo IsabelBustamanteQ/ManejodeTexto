@@ -1,25 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos1.css">
 </head>
 <body>
-    <h1>
-        Titulo H1
-    </h1>
-    <h2>titulo h2</h2>
-    <h3>titulo h3: POEMA</h3>
-    <h4>titulo h4</h4>
-    <p style="font-size: 2em; font-weight: bold;">Lorem ipsum</p>
-    <p>
-        Ten Esperanza. Si hay nubarrones,<br>
-        si hay desengaños y no ilusiones,<br>
-        descoge el ceño, su sombra es vana,<br>
-        que a toda noche sigue un mañana.<br>
-    </p>
-    <h4>titulo h4</h4>
-    
+
+    <div class="encabezados">
+        <h1>HTML</h1>
+        <h2>Elementos</h2>
+            <h3>Elementos Completos</h3>
+            <h3>Elementos Vacíos</h3>
+            <h3>Elementos Padre Hijo</h3>
+                <h4>Elementos Padre</h4>
+                <h4>Elementos Hijo</h4>
+    </div>
+
+    <div class="parrafos">
+        <p>Los especialistas recomiendan que se mejore el tratamiento de la basura lo antes posible, ya que un buen tratamiento de la basura es fundamental para que se reduzca la contaminación.</p>
+        <p>Por eso, es indispensable que se pueda organizar un sistema para recuperar los desechos reciclables.</p>
+    </div>
+
+    <div class="salto-de-linea">
+        <p>
+            La tierra estaba seca.<br>
+            No había ríos ni fuentes.<br>
+            Y brotó de tus ojos<br>
+            el agua, toda el agua.<br>
+        </p>
+    </div>
+
+    <div class="cambio-de-tema">
+        <p>1: La primera regla del club de la pelea es: No hablar del club de la pelea.</p>
+        <hr>
+        <p>2: La segunda regla del club de la pelea es: Siempre traer pastelitos.</p>
+    </div>
+    <div class="wbr">
+        <p> 
+            En la métrica española, el verso está formado por un número fijo de sílabas y una determinada distribución de acentos, con rima optativa.<wbr>
+            También se han ensayado otras métricas en español, como la cuantitativa.<wbr> 
+            Es el caso de la métrica grecolatina, que se constituía a partir de la repetición de determinadas secuencias de sílabas largas y breves (pies).<wbr>
+        </p>    
+    </div>
+
+    <div class="superindice">
+        <p>La ecuación mas famosa del mundo es: </p>
+        <p>E = m.c <sup>2</sup></p>
+    </div>
+
+    <div class="subindice">
+        <p>
+            El mejor amigo de todo desarrollador es: 
+            C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>,
+            también conocido como... 
+        </p>
+    </div>
+
+    <div class="texto-muy-importante">
+        <p>
+            ... una de las reglas más importantes es
+           <strong><strong>No mentir </strong></strong>
+        </p>
+    </div>
+    <div class="enfasis">
+        <p>
+            <em>Llamó</em> a las cuatro de la mañana.
+        </p>
+        <p>
+            Llamó a las <em>cuatro</em> de la mañana.
+        </p>
+    </div>        
+
+    <div class="resaltado">
+        <p>
+            Como se explicó anteriormente, <mark>la vestimenta es un producto cultural</mark> que define,
+             aunque no encasilla, a las personas, porque se relaciona con preferencias y con estilos,
+             que son parte de la identidad de las personas y distintos grupos de la sociedad. 
+            Por tanto, se puede sostener que la industria de la moda interviene en una parte fundamental de la cotidianidad de la población.
+        </p>
+    </div>
+
+    <div class="cita-en-linea">
+        <p>When Dave asks HAL to open the pod bay door, HAL answers: <q cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921">I'm sorry, Dave. I'm afraid I can't do that.</q></p>
+    </div>
+
+    <figure>
+        <blockquote cite="https://www.goodreads.com/quotes/117579-the-truth-may-be-puzzling-it-may-take-some-work">
+            <p>
+                La verdad puede ser desconcertante. Puede tomar algo de trabajo para digerirse. 
+                Puede ser contraintuitiva. Puede contradecir prejuicios profundamente arraigados. 
+                Puede que no sea acorde con lo que desesperadamente queremos que sea verdad. 
+                Pero nuestras preferencias no determinan la verdad.
+            </p>
+        </blockquote>
+        <figcaption>Carl Sagan, "<cite>Wonder and Skepticism</cite>"</figcaption>
+    </figure>
+
+    <div class="titulo-de-trabajo">
+        <p>Mi libro faborito es <cite>El cerebro de broca</cite> de Carl Sagan</p>
+        <hr>
+        <figure>
+            <blockquote>
+                <p>
+                    Entre los habitantes de una aldea hay un, y solo un, barbero. Es un hombre 
+                    pulcro, respetado, que afeita a todos los hombres de la aldea que no se 
+                    afeitan a sí mismos, y solo a ellos. ¿Quién afeita al barbero?            
+                </p>
+                <p>
+                    En principio parece razonable que el barbero se afeite a sí mismo. Pero en 
+                    ese caso viola el requerimiento de afeitar a todos los aldeanos que no se 
+                    afeitan a sí mismos. Y si no se afeita a sí mismo, viola el requerimiento 
+                    de afeitar a todos los aldeanos que no se afeitan a sí mismos.                     
+                </p>
+            </blockquote>
+        <figcaption>Nicholas Falleta, "<cite>Las trampas de la paradoja</cite>"</figcaption>
+        </figure>
+    </div>
+
+    <div class="definiciones">
+        <p>
+            Una <dfn>definicion</dfn> tiene el siguiente concepto.
+        </p>
+    </div>
+
+    <div class="abreviaturas">
+        <p>
+            Esta es una abreviatura <abbr title="Cascading Style Sheets">CSS</abbr> 
+        </p>
+    </div>
+
+    <div class="texto">
+        <p><small>El contenido está disponible bajo una licencia Creative Commons.</small></p>
+    </div>
+
+    <div class="texto-agregado">
+        <h4>Texto Añadido</h4>
+        <ins><p>Este es un texto añadido</p></ins>
+    </div>
+
+    <div class="texto-eliminado">
+        <h4>Texto Eliminado</h4>
+        <del><p>Este es un texto eliminado</p></del>
+    </div>
+
+    <div class="tachar-texto">
+        <p><s>Este es un texto tachado</s></p>
+    </div>
+
+    <div class="codigo">
+        <pre>
+            <code class="python">
+                for i in array
+                    xy.append(2*i)
+            </code>
+        </pre>
+    </div>
+
+    <div class="salida-computadora">
+        <p>
+            <samp>Esta es una salida de computadora</samp>
+        </p>
+    </div>
+
+    <div class="entrada-usuario">
+        <p>
+            entrada de usuario:  
+            <kbd><kbd>Ctrl</kbd>+<kbd>F5</kbd></kbd>.
+        </p>
+    </div>
+
+    <div class="conservar-formato">
+        <pre>
+            ▀██▀─▄███▄─▀██─██▀██▀▀█
+            ─██─███─███─██─██─██▄█
+            ─██─▀██▄██▀─▀█▄█▀─██▀█
+            ▄██▄▄█▀▀▀─────▀──▄██▄▄█
+
+        </pre>        
+    </div>
+    <div class="contacto">
+        <p>Autor:</p>
+        <address>
+            <a href=":isabqm121@gmail.com">isabel.bustamante@ucb.edu.bo</a>
+        </address>
+    </div>
+
+    <div class="caracteres-especiales">
+        <p>
+            El elemento &lt;html&gt; representa la raíz de un documento HTML, 
+            por lo que también se denomina elemento raíz. Todos los demás 
+            elementos deben ser descendientes de este elemento.
+        </p>
+    </div>
 </body>
 </html>
